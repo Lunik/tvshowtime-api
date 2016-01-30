@@ -2,7 +2,8 @@ const Settings = require('./settings.js')
 
 function Configurable () {
   this.queryParams = {
-    user: 'user'
+    user: 'user',
+    to_watch: 'to_watch'
   }
 }
 
