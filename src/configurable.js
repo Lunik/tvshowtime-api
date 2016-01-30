@@ -1,7 +1,9 @@
 const Settings = require('./settings.js')
 
 function Configurable () {
-  this.queryParams = {}
+  this.queryParams = {
+    user: 'user'
+  }
 }
 
 Configurable.prototype.set = function (options) {

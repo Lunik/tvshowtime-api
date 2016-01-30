@@ -7,4 +7,8 @@ function TVSTAPI () {
 
 }
 
+TVSTAPI.prototype.getUser = function (callback) {
+  Extractor.get({req: 'user'}, callback)
+}
+
 module.exports = new TVSTAPI()
