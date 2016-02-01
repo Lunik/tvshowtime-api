@@ -1,6 +1,8 @@
 const Settings = require('./settings.json')
 
-function Configurable () {
+function Configurable (token) {
+  this.token = token
+
   this.queryParams = {
     user: 'user',
     to_watch: 'to_watch',
@@ -31,9 +33,9 @@ Configurable.prototype.set = function (options) {
   for (var key in options) {
     url += '&' + key + '=' + options[key]
   }
-  url += '&access_token=' + Settings.token
+  url += '&access_token=' + this.token
   console.log(url)
   return url
 }
 
-module.exports = new Configurable()
+module.exports = Configurable

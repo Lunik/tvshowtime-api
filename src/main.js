@@ -1,6 +1,8 @@
-const Extractor = require('./extractor.js')
+const ext = require('./extractor.js')
+var Extractor
+function Main (token) {
+  Extractor = new ext(token)
 
-function Main () {
   this.defaultCallback = function (data) {console.log(data)}
 }
 
@@ -21,4 +23,4 @@ Main.prototype.post = function(proto, options, callback){
 
     Extractor.post(options, callback)
 }
-module.exports = new Main()
+module.exports = Main

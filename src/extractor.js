@@ -1,8 +1,10 @@
-const Configurable = require('./configurable.js')
+const config = require('./configurable.js')
+var Configurable
 
 var request = require('request')
 
-function Extractor () {
+function Extractor (token) {
+  Configurable = new config(token)
 }
 
 Extractor.prototype.request = function (options, callback) {
@@ -20,4 +22,4 @@ Extractor.prototype.post = function (options, callback) {
     }
   })
 }
-module.exports = new Extractor()
+module.exports = Extractor

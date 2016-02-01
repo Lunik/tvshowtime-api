@@ -1,6 +1,8 @@
-var API = require('./main.js')
+var Main = require('./main.js')
+var API
 
-function TVSAPI(){
+function TVSAPI(token){
+  API = new Main(token)
 }
 
 TVSAPI.prototype.getUser = function(callback){
@@ -90,4 +92,4 @@ TVSAPI.prototype.setEmotion = function(options, callback){
 TVSAPI.prototype.deleteEmotion = function(options, callback){
   API.post('delete_emotion', options, callback)
 }
-module.exports = new TVSAPI()
+module.exports = TVSAPI
