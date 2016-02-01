@@ -6,7 +6,7 @@ var request = require('request')
 function Extractor () {
 }
 
-Extractor.prototype.get = function (options, callback) {
+Extractor.prototype.request = function (options, callback) {
   request(Configurable.set(options), function (error, response, body) {
     if (!error && response.statusCode == 200) {
       callback(JSON.parse(body))

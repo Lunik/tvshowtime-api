@@ -13,7 +13,7 @@ TVSTAPI.prototype.get = function (proto, options, callback) {
   //maybe verif que le proto existe
   options.req = proto.toLowerCase()
 
-  Extractor.get(options, callback)
+  Extractor.request(options, callback)
 }
 
 TVSTAPI.prototype.set = fucntion(proto, options, callback) {
@@ -22,6 +22,6 @@ TVSTAPI.prototype.set = fucntion(proto, options, callback) {
   //maybe verif que le proto existe
   options.req = proto.toLowerCase()
 
-  Extractor.get(options, callback)
+  Extractor.request(options, callback)
 }
 module.exports = new TVSTAPI()
