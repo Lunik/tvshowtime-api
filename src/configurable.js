@@ -1,4 +1,4 @@
-const Settings = require('./settings.js')
+const Settings = require('./settings.json')
 
 function Configurable () {
   this.queryParams = {

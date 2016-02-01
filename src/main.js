@@ -1,4 +1,3 @@
-const Settings = require('./settings.js')
 const Extractor = require('./extractor.js')
 
 function Main () {

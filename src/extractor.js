@@ -1,4 +1,3 @@
-const Settings = require('./settings.js')
 const Configurable = require('./configurable.js')
 
 var request = require('request')
