@@ -1,4 +1,5 @@
 # TVShowTime - API
+Simple module used to access the TVShowTime API
 
 ## Install
     npm install tvshowtime-api
