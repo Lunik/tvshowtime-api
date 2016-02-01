@@ -18,7 +18,7 @@
     "url": "https://github.com/Lunik/tvshowtime-api/issues"
   },
   "scripts": {
-    "test": "echo 0 > /dev/null",
+    "test": "node src/test.js",
     "start": "node src/index.js"
   },
   "dependencies": {
