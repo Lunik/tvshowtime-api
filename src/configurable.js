@@ -19,7 +19,8 @@ function Configurable () {
     episode: 'episode',
     checkin: 'checkin',
     ischecked: 'checkin',
-    checkout: 'checkout'
+    checkout: 'checkout',
+    progress: 'progress'
   }
 }
 

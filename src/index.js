@@ -74,4 +74,8 @@ TVSAPI.prototype.isWatchedEpisode = function(options, callback){
 TVSAPI.prototype.unwatchEpisode = function(options, callback){
   API.post('checkout', options, callback)
 }
+
+TVSAPI.prototype.getProgess = function(options, callback){
+  API.get('progress', options, callback)
+}
 module.exports = new TVSAPI()
