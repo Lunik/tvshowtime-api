@@ -18,7 +18,8 @@ function Configurable () {
     delete_show_progress: 'delete_show_progress',
     episode: 'episode',
     checkin: 'checkin',
-    ischecked: 'checkin'
+    ischecked: 'checkin',
+    checkout: 'checkout'
   }
 }
 

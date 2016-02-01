@@ -70,4 +70,8 @@ TVSAPI.prototype.setWatchedEpisode = function(options, callback){
 TVSAPI.prototype.isWatchedEpisode = function(options, callback){
   API.post('ischecked', options, callback)
 }
+
+TVSAPI.prototype.unwatchEpisode = function(options, callback){
+  API.post('checkout', options, callback)
+}
 module.exports = new TVSAPI()
