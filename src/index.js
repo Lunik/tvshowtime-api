@@ -32,7 +32,7 @@ TVSAPI.prototype.follow = function(options, callback){
 }
 
 TVSAPI.prototype.isfollow = function(options, callback){
-  API.post('follow', options, callback)
+  API.post('isfollow', options, callback)
 }
 
 TVSAPI.prototype.unfollow = function(options, callback){
@@ -41,5 +41,9 @@ TVSAPI.prototype.unfollow = function(options, callback){
 
 TVSAPI.prototype.archive = function(options, callback){
   API.post('archive', options, callback)
+}
+
+TVSAPI.prototype.isArchived = function(options, callback){
+  API.post('isarchived', options, callback)
 }
 module.exports = new TVSAPI()
