@@ -1,6 +1,6 @@
 {
   "name": "tvshowtime-api",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "author": "Guillaume Lunik <guillaume.lunik@gmail.com>",
   "description": "Simple module used to access the TVShowTime API",
   "keywords": [
