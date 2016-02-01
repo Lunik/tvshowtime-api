@@ -56,3 +56,17 @@ Options:
 |:----|:------|:-------------|
 | page	|integer	|Page number. Default: 0|
 | limit |integer	|Elements per page. Default: 10|
+
+### Explore
+Discover trending shows.
+
+    tvapi.getExplore(options, function(results){
+      console.log(results)
+    }))
+
+Options:
+
+| Name | Type | Description |
+|:----|:------|:-------------|
+| page	|integer	|Page number. Default: 0|
+| limit |integer	|Elements per page. Default: 10|

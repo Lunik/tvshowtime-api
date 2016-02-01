@@ -36,4 +36,11 @@ TVSTAPI.prototype.getLibrary = function(options, callback){
   Extractor.get(options, callback)
 }
 
+TVSTAPI.prototype.getExplore = function(options, callback){
+  options = typeof options !== 'undefined' ? options : {}
+  options.req = 'explore'
+  callback = typeof callback !== 'undefined' ? callback : this.defaultCallback
+
+  Extractor.get(options, callback)
+}
 module.exports = new TVSTAPI()
