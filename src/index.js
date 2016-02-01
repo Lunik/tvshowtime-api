@@ -22,4 +22,8 @@ TVSAPI.prototype.getLibrary = function(options, callback){
 TVSAPI.prototype.Explore = function(options, callback){
   API.get('explore', options, callback)
 }
+
+TVSAPI.prototype.getShow = function(options, callback){
+  API.get('show', options, callback)
+}
 module.exports = new TVSAPI()
