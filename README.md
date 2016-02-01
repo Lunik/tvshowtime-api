@@ -71,8 +71,17 @@ Options:
 |include_episodes	|boolean	|Include all episodes in results.|
 |exact	|boolean	|Exact match for show name. Default: 0|
 
-##### follow
-Follow a show.
+##### follow / isfollowed
+Follow a show. Check if a show is followed.
+
+Options:
+
+| Name | Type | Description |
+|:----|:------|:-------------|
+|show_id *|integer|The TVDB ID of the show.|
+
+##### unfollow
+Unfollow a show.
 
 Options:
 
