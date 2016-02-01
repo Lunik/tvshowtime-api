@@ -11,7 +11,7 @@ function Configurable () {
     follow: 'follow',
     isfollowed: 'follow',
     unfollow: 'unfollow',
-    archive: 'archive'
+    archive: 'archive',
     isarchived: 'archive',
     unarchive: 'unarchive',
     show_progress: 'show_progress',
