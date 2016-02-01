@@ -30,4 +30,12 @@ TVSAPI.prototype.getShow = function(options, callback){
 TVSAPI.prototype.follow = function(options, callback){
   API.post('follow', options, callback)
 }
+
+TVSAPI.prototype.isfollow = function(options, callback){
+  API.post('follow', options, callback)
+}
+
+TVSAPI.prototype.unfollow = function(options, callback){
+  API.post('unfollow', options, callback)
+}
 module.exports = new TVSAPI()
