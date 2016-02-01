@@ -32,7 +32,7 @@ TVSAPI.prototype.follow = function(options, callback){
 }
 
 TVSAPI.prototype.isfollow = function(options, callback){
-  API.post('isfollow', options, callback)
+  API.get('isfollow', options, callback)
 }
 
 TVSAPI.prototype.unfollow = function(options, callback){
@@ -44,7 +44,7 @@ TVSAPI.prototype.archive = function(options, callback){
 }
 
 TVSAPI.prototype.isArchived = function(options, callback){
-  API.post('isarchived', options, callback)
+  API.get('isarchived', options, callback)
 }
 
 TVSAPI.prototype.unArchive = function(options, callback){
@@ -68,7 +68,7 @@ TVSAPI.prototype.setWatchedEpisode = function(options, callback){
 }
 
 TVSAPI.prototype.isWatchedEpisode = function(options, callback){
-  API.post('ischecked', options, callback)
+  API.get('ischecked', options, callback)
 }
 
 TVSAPI.prototype.unwatchEpisode = function(options, callback){
