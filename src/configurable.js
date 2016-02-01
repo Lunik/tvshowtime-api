@@ -20,7 +20,9 @@ function Configurable () {
     checkin: 'checkin',
     ischecked: 'checkin',
     checkout: 'checkout',
-    progress: 'progress'
+    progress: 'progress',
+    emotion: 'emotion',
+    delete_emotion: 'delete_emotion'
   }
 }
 

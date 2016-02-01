@@ -78,4 +78,16 @@ TVSAPI.prototype.unwatchEpisode = function(options, callback){
 TVSAPI.prototype.getProgess = function(options, callback){
   API.get('progress', options, callback)
 }
+
+TVSAPI.prototype.setProgess = function(options, callback){
+  API.post('progress', options, callback)
+}
+
+TVSAPI.prototype.setEmotion = function(options, callback){
+  API.post('emotion', options, callback)
+}
+
+TVSAPI.prototype.deleteEmotion = function(options, callback){
+  API.post('delete_emotion', options, callback)
+}
 module.exports = new TVSAPI()
