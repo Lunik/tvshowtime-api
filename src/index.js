@@ -54,4 +54,8 @@ TVSAPI.prototype.unArchive = function(options, callback){
 TVSAPI.prototype.setShowProgress = function(options, callback){
   API.post('show_progress', options, callback)
 }
+
+TVSAPI.prototype.deleteShowProgress = function(options, callback){
+  API.post('delete_show_progress', options, callback)
+}
 module.exports = new TVSAPI()

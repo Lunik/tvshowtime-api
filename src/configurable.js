@@ -14,7 +14,8 @@ function Configurable () {
     archive: 'archive'
     isarchived: 'archive',
     unarchive: 'unarchive',
-    show_progress: 'show_progress'
+    show_progress: 'show_progress',
+    delete_show_progress: 'delete_show_progress'
   }
 }
 
