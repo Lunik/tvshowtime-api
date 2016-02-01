@@ -46,4 +46,8 @@ TVSAPI.prototype.archive = function(options, callback){
 TVSAPI.prototype.isArchived = function(options, callback){
   API.post('isarchived', options, callback)
 }
+
+TVSAPI.prototype.unArchive = function(options, callback){
+  API.post('unarchive', options, callback)
+}
 module.exports = new TVSAPI()

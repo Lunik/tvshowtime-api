@@ -13,6 +13,7 @@ function Configurable () {
     unfollow: 'unfollow',
     archive: 'archive'
     isarchived: 'archive',
+    unarchive: 'unarchive'
   }
 }
 
