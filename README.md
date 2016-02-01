@@ -2,7 +2,8 @@
 
 ## Use
 
-    var tvapi = require('tvshowtime-api')
+    var api = require('tvshowtime-api')
+    var tv = new api('YOUR_TOKEN')
 
 ## Methods
 
