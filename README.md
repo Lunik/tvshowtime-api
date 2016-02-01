@@ -1,5 +1,8 @@
 # TVShowTime - API
 
+## Install
+    npm install tvshowtime-api
+    
 ## Use
 
     var api = require('tvshowtime-api')
