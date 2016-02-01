@@ -26,4 +26,8 @@ TVSAPI.prototype.Explore = function(options, callback){
 TVSAPI.prototype.getShow = function(options, callback){
   API.get('show', options, callback)
 }
+
+TVSAPI.prototype.follow = function(options, callback){
+  API.post('follow', options, callback)
+}
 module.exports = new TVSAPI()
