@@ -66,4 +66,8 @@ TVSAPI.prototype.getEpisode = function(options, callback){
 TVSAPI.prototype.setWatchedEpisode = function(options, callback){
   API.post('checkin', options, callback)
 }
+
+TVSAPI.prototype.isWatchedEpisode = function(options, callback){
+  API.post('ischecked', options, callback)
+}
 module.exports = new TVSAPI()
