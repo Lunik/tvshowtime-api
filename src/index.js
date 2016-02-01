@@ -5,7 +5,6 @@ const Extractor = require('./extractor.js')
 
 function TVSTAPI () {
   this.defaultCallback = function(data){console.log(data)}
-  this.getAgenda()
 }
 
 TVSTAPI.prototype.getUser = function (callback) {
@@ -28,4 +27,13 @@ TVSTAPI.prototype.getAgenda = function(options, callback){
 
   Extractor.get(options, callback)
 }
+
+TVSTAPI.prototype.getLibrary = function(options, callback){
+  options = typeof options !== 'undefined' ? options : {}
+  options.req = 'library'
+  callback = typeof callback !== 'undefined' ? callback : this.defaultCallback
+
+  Extractor.get(options, callback)
+}
+
 module.exports = new TVSTAPI()

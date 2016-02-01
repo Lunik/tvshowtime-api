@@ -42,3 +42,17 @@ Options:
 | page	|integer	|Page number. Default: 0|
 | limit |integer	|Elements per page. Default: 10|
 |include_watched | boolean | Include watched episodes in results. |
+
+### Library
+Get the user library.
+
+    tvapi.getLibrary(options, function(results){
+      console.log(results)
+    }))
+
+Options:
+
+| Name | Type | Description |
+|:----|:------|:-------------|
+| page	|integer	|Page number. Default: 0|
+| limit |integer	|Elements per page. Default: 10|

@@ -4,7 +4,8 @@ function Configurable () {
   this.queryParams = {
     user: 'user',
     to_watch: 'to_watch',
-    agenda: 'agenda'
+    agenda: 'agenda',
+    library: 'library'
   }
 }
 
