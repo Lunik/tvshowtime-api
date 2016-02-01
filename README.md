@@ -229,7 +229,7 @@ Options:
 |season_number *|integer|Season number of the episode.|
 |number	*|integer |Episode number of the episode.|
 
-###### setEmotion(options, callback)
+##### setEmotion(options, callback)
 Set the emotion for an episode.
 
 | Name | Type | Description |
