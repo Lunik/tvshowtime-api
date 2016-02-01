@@ -16,7 +16,8 @@ function Configurable () {
     unarchive: 'unarchive',
     show_progress: 'show_progress',
     delete_show_progress: 'delete_show_progress',
-    episode: 'episode'
+    episode: 'episode',
+    checkin: 'checkin'
   }
 }
 
