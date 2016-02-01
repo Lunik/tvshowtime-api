@@ -34,7 +34,6 @@ Configurable.prototype.set = function (options) {
     url += '&' + key + '=' + options[key]
   }
   url += '&access_token=' + this.token
-  console.log(url)
   return url
 }
 
