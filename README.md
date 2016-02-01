@@ -62,10 +62,6 @@ Options:
 ##### show
 Get show data.
 
-    tvapi.getShow(options, function(results){
-      console.log(results)
-    }))
-
 Options:
 
 | Name | Type | Description |
@@ -74,3 +70,12 @@ Options:
 |show_name *|string |The name of the show.|
 |include_episodes	|boolean	|Include all episodes in results.|
 |exact	|boolean	|Exact match for show name. Default: 0|
+
+##### follow
+Follow a show.
+
+Options:
+
+| Name | Type | Description |
+|:----|:------|:-------------|
+|show_id *|integer|The TVDB ID of the show.|
