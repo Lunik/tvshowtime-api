@@ -6,7 +6,8 @@ function Configurable () {
     to_watch: 'to_watch',
     agenda: 'agenda',
     library: 'library',
-    explore, 'explore'
+    explore: 'explore',
+    show: 'show'
   }
 }
 

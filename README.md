@@ -70,3 +70,19 @@ Options:
 |:----|:------|:-------------|
 | page	|integer	|Page number. Default: 0|
 | limit |integer	|Elements per page. Default: 10|
+
+### Show
+Get show data.
+
+    tvapi.getShow(options, function(results){
+      console.log(results)
+    }))
+
+Options:
+
+| Name | Type | Description |
+|:----|:------|:-------------|
+|show_id *|integer |The TVDB ID of the show.|
+|show_name *|string |The name of the show.|
+|include_episodes	|boolean	|Include all episodes in results.|
+|exact	|boolean	|Exact match for show name. Default: 0|

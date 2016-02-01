@@ -43,4 +43,12 @@ TVSTAPI.prototype.getExplore = function(options, callback){
 
   Extractor.get(options, callback)
 }
+
+TVSTAPI.prototype.getShow = function(options, callback){
+  options = typeof options !== 'undefined' ? options : {}
+  options.req = 'show'
+  callback = typeof callback !== 'undefined' ? callback : this.defaultCallback
+
+  Extractor.get(options, callback)
+}
 module.exports = new TVSTAPI()
