@@ -6,19 +6,19 @@
 
 ## Methods
 
-### User
-Get the user info.
+### Get
 
-    tvapi.getUser(function(results){
+    tvapi.get(proto, options, function(results){
       console.log(results)
     })
 
-### To-Watch
-Get the user to-watch list.
+#### Proto
 
-    tvapi.getToWatch(options, function(results){
-      console.log(results)
-    }))
+##### user
+Get the user info.
+
+##### to-wath
+Get the user to-watch list.
 
 Options:
 
@@ -28,12 +28,8 @@ Options:
 | limit |integer	|Elements per page. Default: 10|
 | lang	|string	|Language of the content (en, fr, es, it, pt). Default: user lang|
 
-### Agenda
+##### agenda
 Get the user agenda.
-
-    tvapi.getAgenda(options, function(results){
-      console.log(results)
-    }))
 
 Options:
 
@@ -43,13 +39,9 @@ Options:
 | limit |integer	|Elements per page. Default: 10|
 |include_watched | boolean | Include watched episodes in results. |
 
-### Library
+##### library
 Get the user library.
 
-    tvapi.getLibrary(options, function(results){
-      console.log(results)
-    }))
-
 Options:
 
 | Name | Type | Description |
@@ -57,13 +49,9 @@ Options:
 | page	|integer	|Page number. Default: 0|
 | limit |integer	|Elements per page. Default: 10|
 
-### Explore
+##### explore
 Discover trending shows.
 
-    tvapi.getExplore(options, function(results){
-      console.log(results)
-    }))
-
 Options:
 
 | Name | Type | Description |
@@ -71,7 +59,7 @@ Options:
 | page	|integer	|Page number. Default: 0|
 | limit |integer	|Elements per page. Default: 10|
 
-### Show
+##### show
 Get show data.
 
     tvapi.getShow(options, function(results){
