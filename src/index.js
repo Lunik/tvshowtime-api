@@ -10,9 +10,18 @@ function TVSTAPI () {
 TVSTAPI.prototype.get = function (proto, options, callback) {
   options = typeof options !== 'undefined' ? options : {}
   callback = typeof callback !== 'undefined' ? callback : this.defaultCallback
+  //maybe verif que le proto existe
   options.req = proto.toLowerCase()
 
   Extractor.get(options, callback)
 }
 
+TVSTAPI.prototype.set = fucntion(proto, options, callback) {
+  options = typeof options !== 'undefined' ? options : {}
+  callback = typeof callback !== 'undefined' ? callback : this.defaultCallback
+  //maybe verif que le proto existe
+  options.req = proto.toLowerCase()
+
+  Extractor.get(options, callback)
+}
 module.exports = new TVSTAPI()
