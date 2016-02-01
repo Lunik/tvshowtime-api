@@ -10,7 +10,8 @@ function Configurable () {
     show: 'show',
     follow: 'follow',
     isfollowed: 'follow',
-    unfollow: 'unfollow'
+    unfollow: 'unfollow',
+    archive: 'archive'
   }
 }
 
