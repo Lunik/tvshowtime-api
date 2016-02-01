@@ -19,7 +19,7 @@ TVSAPI.prototype.getLibrary = function(options, callback){
   API.get('library', options, callback)
 }
 
-TVSAPI.prototype.Explore = function(options, callback){
+TVSAPI.prototype.explore = function(options, callback){
   API.get('explore', options, callback)
 }
 
