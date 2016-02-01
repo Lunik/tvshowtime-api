@@ -12,6 +12,7 @@ function Configurable () {
     isfollowed: 'follow',
     unfollow: 'unfollow',
     archive: 'archive'
+    isarchived: 'archive',
   }
 }
 
