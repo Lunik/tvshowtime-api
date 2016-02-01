@@ -8,7 +8,9 @@ function Configurable () {
     library: 'library',
     explore: 'explore',
     show: 'show',
-    follow: 'follow'
+    follow: 'follow',
+    isfollowed: 'follow',
+    unfollow: 'unfollow'
   }
 }
 
