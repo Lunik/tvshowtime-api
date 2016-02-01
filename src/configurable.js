@@ -7,7 +7,8 @@ function Configurable () {
     agenda: 'agenda',
     library: 'library',
     explore: 'explore',
-    show: 'show'
+    show: 'show',
+    follow: 'follow'
   }
 }
 
