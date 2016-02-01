@@ -58,4 +58,8 @@ TVSAPI.prototype.setShowProgress = function(options, callback){
 TVSAPI.prototype.deleteShowProgress = function(options, callback){
   API.post('delete_show_progress', options, callback)
 }
+
+TVSAPI.prototype.getEpisode = function(options, callback){
+  API.post('episode', options, callback)
+}
 module.exports = new TVSAPI()
