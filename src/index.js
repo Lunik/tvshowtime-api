@@ -14,4 +14,8 @@ TVSAPI.prototype.getToWatch = function(options, callback){
 TVSAPI.prototype.getAgenda = function(options, callback){
   API.get('agenda', options, callback)
 }
+
+TVSAPI.prototype.getLibrary = function(options, callback){
+  API.get('library', options, callback)
+}
 module.exports = new TVSAPI()
