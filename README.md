@@ -9,6 +9,10 @@ Simple module used to access the TVShowTime API
     var api = require('tvshowtime-api')
     var tv = new api('YOUR_TOKEN')
 
+## Get your token
+
+    Soon
+
 ## Methods
 
 ##### getUser(callback)
