@@ -11,7 +11,7 @@ Simple module used to access the TVShowTime API
 
 ## Get your token
 
-    Soon
+    GOTO http://tvsapi.lunik.xyz
 
 ## Methods
 
