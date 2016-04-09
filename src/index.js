@@ -10,7 +10,7 @@ TVSAPI.prototype.getUser = function (callback) {
 }
 
 TVSAPI.prototype.getToWatch = function (options, callback) {
-  API.get('to-watch', options, callback)
+  API.get('to_watch', options, callback)
 }
 
 TVSAPI.prototype.getAgenda = function (options, callback) {
