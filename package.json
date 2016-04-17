@@ -22,6 +22,6 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "request": "^2.67.0"
+    "request": "^2.72.0"
   }
 }
